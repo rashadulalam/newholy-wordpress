@@ -1,0 +1,50 @@
+
+// Footer area
+footer {
+
+
+    .footer-top {
+        background-image: url('../img/bg2.jpg');
+        background-repeat: repeat;
+    }
+    .footer-widget {
+        color: #a9a9a9;
+        .fw-header {
+            color: #fff;
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        ul li a {
+            color: #a9a9a9;
+            font-size: 14px;
+            text-decoration: none;
+            padding: 5px 0;
+            display: block;
+            transition: color 0.3s;
+
+            &:hover {
+                color: #CCC;
+            }
+        }
+
+        .fas {
+            background: #001323;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+        }
+    }
+    .site-copyright {
+        background-color: $body-bg3;
+        padding: 15px 0;
+        p {
+            margin: 0;
+            color: $dimWhite;
+            padding: 0 5% 0 5%;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.about-us {
+    
+    .section-header {
+        h2 {
+            color: #0075D6; 
+            font-size: 32px;
+            font-family: inherit;
+            padding: 5px 0;
+            font-weight: normal;
+            span {
+                display: block;
+                font-size: 16px;
+                color: #484848;
+            }
+        }
+    }
+    p{
+        font-size: 25px;
+        font-style: italic;
+        line-height: 1.5;
+        color: #0075D6;
+    }
+}
